@@ -1,25 +1,22 @@
-from project1-calculator import operations,mod_division,divide
-from project1-calculator import input_data
+# импортируем функции сложения и т.д
+# импортируем инпут 
+фром ...
 
- def run_calculator():
-    while True:
-      num1, num2, operator = input_data()
-      
-        if operator == '+':
-           print(num1 + num2)
-        elif operator == '-':
+# def run_calculator():
+#     while True:
+#       num1, num2, operator = функция()
+        if operation == '+':
+           print(назввание функции сложения с параметрами)
+        elif operation == '-':
            print(num1 - num2)
-        elif operator == '*':
+        elif operation == '*':
            print(num1 * num2)
         elif operation == '/':
-                result = divide(num1, num2)
-                if result is not None:
-                    print(num1 / num2)
+           print(num1 / num2)
         elif operation == '**':
-           print(num1 ** num2)
+          print(num1 ** num2)
         else:
-           print('ERROR')
-           continue 
+          print('ERROR')
 
 
      
